@@ -10,8 +10,8 @@
 	 <nav class="navbar navbar-inverse">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<b>Body Power Fitness Club</b></a>
-	     </div>
+         <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<font face = "Times New Roman" size = "5"><b>BODY POWER FITNESS CLUB</b></font></a>
+        </div>
 	     <ul class="nav navbar-nav">
 	       <li><a href="index.php">Home</a></li>
 	       <li><a href="contactus.php">Contact Us</a></li>
@@ -32,31 +32,32 @@
      		  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQaZwF2d2GUog0OXLV1q-KE-1uTcTlsVE4OEpWiUSnnS0Eh_YFwZuUkM5FkO37smNc-k&usqp=CAU.jpg" height="200" width="450">	
             </marquee>
      	<center>
-         <h2>Welcome To The Body Power Fitness Club Family. Meet Our Team Members</h2>
-		 <div class="container mt-5 mb-5">
+         <font face = "Times New Roman" size = "5"><h2><b>Welcome To The Body Power Fitness Club Family. Meet Our Team Members</h2></b></font>
+         <font face = "Times New Roman" size = "3"> 
+            <b> <div class="container mt-5 mb-5">
     <div class="row g-2">
 	<div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://www.thestatesman.com/wp-content/uploads/2019/09/QT-Bharat-Walia-1024x683.jpg" width="170" class="rounded-circle"> </div>
-                <h5 class="mb-0">Anna Sthesia</h5> <small>Owner</small>
+                <h4 class="mb-0">Anna Sthesia</h4> <small>Owner</small>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfPib7CWEiNiu18DRUk_FDdZR0KNSI4oz_g&usqp=CAU.jpg" width="170" class="rounded-circle"> </div>
-                <h5 class="mb-0">Paul Moliv</h5> <small>Co-Owner</small>
+                <h4 class="mb-0">Paul Moliv</h4> <small>Co-Owner</small>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZkBxRoOZDEwahHBXWTn2U1KOtDdNdQKTTF0q-FW6ff7heliuF1YQHYWDiydr5n1pFpcA&usqp=CAU.jpg" width="150" class="rounded-circle"> </div>
-                <h5 class="mb-0">Pater Parker</h5> <small>Nutritionists</small>
+                <h4 class="mb-0">Pater Parker</h4> <small>Nutritionists</small>
            </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSarIQqvkZ6ivkCIHDeJNeZ_EIOm8ZtBzm1kgjiQs5hX11mOVxnP7xT-YlsPEXfx2jIkrY&usqp=CAU" width="160" class="rounded-circle"> </div>
-                <h5 class="mb-0">Mario Speedway</h5> <small>Receptionist</small>
+                <h4 class="mb-0">Mario Speedway</h4> <small>Receptionist</small>
             </div>
         </div>
         <div class="col-md-3">
@@ -68,29 +69,31 @@
 		<div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://i.imgur.com/HFpxxJz.jpg" width="130" class="rounded-circle"> </div>
-                <h5 class="mb-0">Patey Cruiser</h5> <small>Fitness Trainer</small>
+                <h4 class="mb-0">Patey Cruiser</h4> <small>Fitness Trainer</small>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufu8fgBuRY7YRxzTA3l7Pvx0xU1l2wKSJFQ&usqp=CAU.jpg" width="130" class="rounded-circle"> </div>
-                <h5 class="mb-0">Gail Forcewind</h5> <small>Fitness Trainer</small>
+                <h4 class="mb-0">Gail Forcewind</h4> <small>Fitness Trainer</small>
             </div>
         </div>
 		<div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZstGiKyzjTzMYeQUjiY0NRcmktKVhI3IOSQ&usqp=CAU.jpg" width="130" class="rounded-circle"> </div>
-                <h5 class="mb-0">Loren Johnson</h5> <small>Zumba Trainer</small>
+                <h4 class="mb-0">Loren Johnson</h4> <small>Zumba Trainer</small>
             </div>
         </div>
     </div>
 </div>
+</b>
+</font>
 <br><br>
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#">All Right Reserved to Body Power Fitness Club</a>
-	     </div>
+         <a class="navbar-brand" href="#"><font face = "Times New Roman" size = "5">All Right Reserved to Body Power Fitness Club</font></a>
+        </div>
 </nav>         
      	</center>
     </body>

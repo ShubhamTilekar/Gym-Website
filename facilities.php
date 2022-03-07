@@ -10,8 +10,8 @@
 	 <nav class="navbar navbar-inverse">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<b>Body Power Fitness Club</b></a>
-	     </div>
+       <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<font face = "Times New Roman" size = "5"><b>BODY POWER FITNESS CLUB</b></font></a>
+      </div>
 	     <ul class="nav navbar-nav">
 	       <li><a href="index.php">Home</a></li>
 	       <li><a href="contactus.php">Contact Us</a></li>
@@ -32,31 +32,31 @@
      		    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQaZwF2d2GUog0OXLV1q-KE-1uTcTlsVE4OEpWiUSnnS0Eh_YFwZuUkM5FkO37smNc-k&usqp=CAU.jpg" height="200" width="450">	
           </marquee>
      	<center>
-         <h2>These Are Our Club's Facilities With Best Equipments and Professional Trainers</h2>
+         <font face = "Times New Roman" size = "5">These Are Our Club's Facilities With Best Equipments and Professional Trainers</font><br>
 		 <div class="container mt-5 mb-5">
     <div class="row g-2">
 	<div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://freepikpsd.com/file/2019/10/exercicios-desenho-png-Transparent-Images.png" width="170" class="rounded-circle"> </div>
-                <h5 class="mb-0">Gym</h5>
+                <h4 class="mb-0"><font face = "Times New Roman" size = "4">Gym</font></h4>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://dagaswestendmeadows.com/images/icons/5.png" width="130" height="250" class="rounded-circle"> </div>
-                <h5 class="mb-0">Cardio</h5>
+                <h4 class="mb-0"><font face = "Times New Roman" size = "4">Cardio</font></h5>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeSRmaMJ7yokQiAIB_MwD7j5EYh_JCCkt6J2xjKRF27MFThX9POK69nzF_sYEpSXRL2ec&usqp=CAU.jpg" width="250" height="250" class="rounded-circle"> </div>
-                <h5 class="mb-0">Cross-Fit</h5>
+                <h4 class="mb-0">Cross-Fit</h4>
            </div>
         </div>
         <div class="col-md-3">
             <div class="card p-2 py-3 text-center">
                 <div class="img mb-2"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTG-pzl2FS_PBIJnPYnu4APRNjQfzM48LyQSMXzLJhAFDHm5IZUz5lGVQ10vTmVAYmNk8&usqp=CAU.jpg" width="160" class="rounded-circle"> </div>
-                <h5 class="mb-0">Zumba</h5>
+                <h4 class="mb-0">Zumba</h4>
             </div>
         </div>
     </div>
@@ -64,8 +64,8 @@
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#">All Right Reserved to Body Power Fitness Club</a>
-	     </div>
+       <a class="navbar-brand" href="#"><font face = "Times New Roman" size = "5">All Right Reserved to Body Power Fitness Club</font></a>
+      </div>
 </nav>         
      	</center>
     </body>

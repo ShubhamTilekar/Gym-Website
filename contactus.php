@@ -12,8 +12,8 @@
 	 <nav class="navbar navbar-inverse">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<b>Body Power Fitness Club</b></a>
-	     </div>
+		 <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<font face = "Times New Roman" size = "5"><b>BODY POWER FITNESS CLUB</b></font></a>
+		</div>
 	     <ul class="nav navbar-nav">
 	       <li><a href="index.php">Home</a></li>
 	       <li><a href="#">Contact Us</a></li>
@@ -34,7 +34,7 @@
      		  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQaZwF2d2GUog0OXLV1q-KE-1uTcTlsVE4OEpWiUSnnS0Eh_YFwZuUkM5FkO37smNc-k&usqp=CAU.jpg" height="200" width="450">	
      		</marquee>
     <div style="text-align: center"><br>
-        <h2 style="color: #666;">Contact Us</h2> <br>
+        <h2 style="color: #666;"><font face = "Times New Roman" size = "10">Contact Us</font></h2> <br>
         <p class="text-center" style="color:#444;">Have any Questions? Feel free to contact our Tech Support</p> <br>
 		<p><i style="font-size:24px" class="fa">&#xf098;</i>&emsp; 121-8857449</p>
 		<p><i style="font-size:24px" class="fa">&#xf0e0;</i>&emsp; bodypowerfitness@gmail.com</p>
@@ -42,8 +42,8 @@
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#">All Right Reserved to Body Power Fitness Club</a>
-	     </div>
+		 <a class="navbar-brand" href="#"><font face = "Times New Roman" size = "5">All Right Reserved to Body Power Fitness Club</font></a>
+		</div>
 </nav>
     </body>
 </html>    

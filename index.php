@@ -15,8 +15,8 @@ include ("connection.php");
 	 <nav class="navbar navbar-inverse">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<b>Body Power Fitness Club</b></a>
-	     </div>
+		 <a class="navbar-brand" href="#"><span class="glyphicon">&#xe212;</span>&nbsp;<font face = "Times New Roman" size = "5"><b>BODY POWER FITNESS CLUB</b></font></a>
+		</div>
 	     <ul class="nav navbar-nav">
 	       <li><a href="#">Home</a></li>
 	       <li><a href="contactus.php">Contact Us</a></li>
@@ -41,9 +41,11 @@ include ("connection.php");
      	<center>
 		 <div style="background-image: url('https://wallpaperaccess.com/full/1567833.jpg'); width:1519;">
 		 <font face = "Times New Roman" size = "25"><b>BODY POWER FITNESS CLUB</b></font><br><br>
-     	Full Name&emsp;<input type="text" name="nm" style="width:600px;" required><br><br>
+     	<font face = "Times New Roman" size = "5">
+		 Full Name&emsp;<input type="text" name="nm" style="width:600px;" required><br><br>
      	Address&emsp;<input type="text" name="addr" style="width:600px;" required>&emsp;&emsp;<br><br>
 		Email&emsp;<input type="email" name="email" style="width:600px;" required>&emsp;&emsp;<br><br>
+		Phone No.&emsp;<input type="numeric" name="pno" style="width:600px;" required>&emsp;&emsp;<br><br>
      	Age&emsp;<input type="text" name="age"required><br><br>
      	Occupation&emsp;<input type="text" name="occ"required>&emsp;&emsp;<br><br>
      	Joining Date&emsp;<input type="date" name="jd"required><br><br>
@@ -52,29 +54,33 @@ include ("connection.php");
 			<input type="radio" name="pom" value="Quaterly" required>Quaterly &emsp;
 			<input type="radio" name="pom" value="Monthly" required>Monthly<br><br>
      	<input type="submit" class="button" name="submit" value="Submit">
+		</font>
      	</center>
      	</div>
      </form>
     </body>
 
 <?php
+error_reporting(0);
    if($_POST['submit'])
 	{
 		$nm=$_POST["nm"];
 		$email=$_POST["email"];
+		$pno=$_POST["pno"];
 		$addr=$_POST["addr"];
 		$age=$_POST["age"];
 		$occ=$_POST["occ"];
 		$jd=$_POST["jd"];
 		$pom=$_POST["pom"];
 
-	   if($nm!="" && $email!="" && $addr!="" && $age!="" && $occ!="" && $jd!="" && $pom!="")
+	   if($nm!="" && $email!="" && $pno!="" && $addr!="" && $age!="" && $occ!="" && $jd!="" && $pom!="")
 		 {
-			$query = "INSERT INTO `project`.`gym` (`nm`, `email`, `addr`, `age`, `occ`, `jd`, `pom`) VALUES ('$nm','$email','$addr','$age','$occ','$jd','$pom')";
+			$query = "INSERT INTO 'project'.'gym' ('nm', 'email', 'pno', 'addr', 'age', 'occ', 'jd', 'pom') VALUES ('$nm','$email','$pno','$addr','$age','$occ','$jd','$pom')";
 			$data = mysqli_query($conn, $query);
 
 		 if($data)
 			 {
+				 
 			   echo "Hello Mr./Ms. ".$nm." Visit Our Gym For Your Registration Details <br>";
 			   echo"Thank You.....!!!!!";
 			 }
@@ -87,15 +93,14 @@ include ("connection.php");
 		  }
 
 	 }
-
-
+<-Hello Everyone->
 ?>
 <body>
 <nav class="navbar navbar-inverse navbar-sticky-bottom">
 	   <div class="container-fluid">
 	     <div class="navbar-header">
-	       <a class="navbar-brand" href="#">All Right Reserved to Body Power Fitness Club</a>
-	     </div>
+		 <a class="navbar-brand" href="#"><font face = "Times New Roman" size = "5">All Right Reserved to Body Power Fitness Club</font></a>
+		</div>
 </nav>		 
 </body>
 
